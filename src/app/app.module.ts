@@ -16,10 +16,10 @@ import { NotFoundComponent } from './not-found/not-found.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     ElementsModule, // Reach out to ElementsModule, get access to all the components, that
     // have been exported from it and give us access to them inside of the app module
-    CollectionsModule
+    CollectionsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
