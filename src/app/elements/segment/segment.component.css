@@ -1,0 +1,7 @@
+/* 
+    If we dont pass anything inside header div, 
+    its not gonna show inside segment at all 
+*/
+div.ui.icon.header:empty {
+    display: none;
+}
