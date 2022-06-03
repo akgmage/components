@@ -6,4 +6,11 @@
             </th>
         </tr>
     </thead>
+    <tbody>
+        <tr *ngFor="let record of data">
+            <td *ngFor="let header of headers">
+                {{ record[header.key] }}
+            </td>
+        </tr>
+    </tbody>
 </table>
