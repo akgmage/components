@@ -7,6 +7,7 @@ import { TableComponent } from './table/table.component';
 import { SharedModule } from '../shared/shared.module';
 import { BiographyComponent } from './biography/biography.component';
 import { CompaniesComponent } from './companies/companies.component';
+import { PartnersComponent } from './partners/partners.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { CompaniesComponent } from './companies/companies.component';
     CollectionsHomeComponent,
     TableComponent,
     BiographyComponent,
-    CompaniesComponent
+    CompaniesComponent,
+    PartnersComponent
   ],
   imports: [
     CommonModule,
