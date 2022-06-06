@@ -15,4 +15,10 @@ export class ModalComponent implements OnInit {
     document.body.appendChild(this.el.nativeElement);
   }
 
+  ngOnDestroy() {
+    // remove is method that is built into all html elements, 
+    // which cause the element to delete itself and nmo longer be displayed inside the dom
+    this.el.nativeElement.remove(); // Remove it from dom
+  }
+
 }
