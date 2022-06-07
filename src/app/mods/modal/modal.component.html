@@ -2,7 +2,7 @@
     <div (click)="$event.stopPropagation()" class="ui modal visible active">
         <i (click)="onCloseClick()" class="close icon"></i>
         <div class="header">
-            MODAL!
+            <ng-content select="[modalTitle]"></ng-content>
         </div>
         <div class="content">
             <ng-content></ng-content>
